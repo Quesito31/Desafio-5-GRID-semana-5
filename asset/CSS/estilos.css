@@ -32,6 +32,7 @@ body {
     grid-area: sidebar;
     background-color: #f4f4f4;
    height: 730px;
+   width: 200px;
     padding: 20px
 }
 
@@ -100,24 +101,37 @@ body {
     color: white;
     border: none;
     border-radius: 4px;
-    
     font-size: 1em;
-    transition: background-color 0.3s;
+    
 }
 
 .boton-comprar:hover {
-    background-color: #218838;
+    background-color: #dc91e6;
 }
 
-.categorias-laterales {
-    padding: 16px;
+
+
+.titulo{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.titulo{
-    padding: 20px;
+
+.menus{
+font-size: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
 
 
+
+.cambia-color:hover {
+    color:#4b48e4;
+    cursor:pointer
 }
